@@ -46,10 +46,16 @@ and that both those copyright notices and this permission notice appear in suppo
 */
 
 #include <stdio.h>
+
+//ESP32
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 #include "driver/i2c.h"
 #include "driver/gpio.h"
+
+//Raspberry pi pico
+//#include "hardware/gpio.h"
+//#include "hardware/i2c.h"
 
 #ifndef _OLED_I2C_H_
 #define _OLED_I2C_H_
